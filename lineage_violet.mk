@@ -19,7 +19,7 @@ TARGET_BUILD_APERTURE_CAMERA := false
 BYPASS_CHARGE_SUPPORTED  := true
 
 #Include ViperFX
-TARGET_INCLUDE_VIPERFX := true
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 #GAPPS
 WITH_GMS := true
